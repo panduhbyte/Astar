@@ -29,9 +29,7 @@ public class Node {
     public int getF(){
         return f;
     }
-    public int getG(){
-        return g;
-    }
+    public int getG(){ return g; }
     public int getH() { return h; }
     public Node getParent(){
         return parent;
